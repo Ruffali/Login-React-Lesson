@@ -1,0 +1,21 @@
+.rightPart, .errorPart {
+  width: 25%;
+  height: 100vh;
+  position: relative;
+  &.errorPart{
+    animation-name: error;
+    animation-duration: .5s;
+  }
+}
+
+@keyframes error {
+  0% {
+    background-color: rgb(255, 0, 0);
+  }
+  50% {
+    background-color: rgb(128, 12, 12);
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+  }
+}

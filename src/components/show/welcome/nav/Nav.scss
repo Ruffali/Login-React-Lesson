@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin-left: auto;
+  a {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size-adjust: 1vw;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 15px 0px 15px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    &:first-child {
+      margin-top: 20px;
+    }
+    &.active {
+      background: #ffffff;
+      color: #000;
+    }
+  }
+}

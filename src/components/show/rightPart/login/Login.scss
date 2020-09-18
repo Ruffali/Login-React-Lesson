@@ -1,0 +1,14 @@
+form {
+  position: absolute;
+  width: 70%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: rgb(38, 118, 238);
+  }
+}
